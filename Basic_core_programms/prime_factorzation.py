@@ -1,6 +1,6 @@
-def prime_factor(n):
+def prime_factor(n): 
 
-    try:
+    try:         #Here we check input is a number or not.
         n = int(n)
         if n < 0:
             print(f"{n} is negative ,so its prime factor is not possible")
